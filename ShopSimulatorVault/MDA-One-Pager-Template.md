@@ -46,8 +46,8 @@ This game is for people who love management and simulator games. The player talk
 - As this is specifically a charity shop simulator, I feel it necessary to not paint real charity shops in a bad light. This means that I can't over-exaggerate the conditions in the shop, which may make the game more interesting, without adding a fantastical element to establish its disconnect from reality.
 
 ## Risks & cuts list (in the order they get cut)
-1. <first thing to drop if behind by Week 5>
-2. <...>
+1. Variety of donations
+2. 
 3. <...>
 
 
