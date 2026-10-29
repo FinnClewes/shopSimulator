@@ -5,9 +5,13 @@ public class GameManager : MonoBehaviour
 {
     int currentDay = 0;
     int weekNumber = 1;
-    [SerializeField] Camera tillCamera;
-    [SerializeField] Camera topDownCamera;
     GamePhase phase;
+
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
 
     public enum GamePhase
     {
@@ -23,8 +27,6 @@ public class GameManager : MonoBehaviour
     {
         phase = GamePhase.Morning;
         // change camera to top-down
-        tillCamera.enabled = false;
-        topDownCamera.enabled = true;
     }
 
     public void StartDay() 
@@ -32,8 +34,6 @@ public class GameManager : MonoBehaviour
         phase = GamePhase.Day;
         currentDay++;
         // change to till camera
-        tillCamera.enabled = true;
-        topDownCamera.enabled = false;
     }
 
     public void EndDay() 
