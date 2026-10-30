@@ -458,7 +458,7 @@ Customer models for 3 temperaments
 ## 10.4 Environments
 Shop floor, back room, exterior
 ## 10.5 Equipment
-4 donation item types, 2 decorations, 2 shelf type, cleaning station, till
+4 donation item types, 2 decorations, 1 shelf type, cleaning station, till
 ## 10.6 Cut scenes
 None
 ## 10.7 Miscellaneous 
@@ -586,7 +586,7 @@ Buffer: Fri 26 Mar to Wed 31 Mar, 0 to 6 hours, for anything that slipped. Good 
 | Sprint | Date     | Hours | What I did                                                                                                              |
 | ------ | -------- | ----- | ----------------------------------------------------------------------------------------------------------------------- |
 | 0      | 21/10/26 | 2     | plan sprint for the rest of the semester, rewrote GDD, updated uml                                                      |
-| 1      | 29/10/26 | 5     | re-allocated time and tasks for each sprint, updated GDD, made character controller, made basic interact raycast system |
+| 1      | 29/10/26 | 6     | re-allocated time and tasks for each sprint, updated GDD, made character controller, made basic interact raycast system |
 |        |          |       |                                                                                                                         |
 
 ## 11.3 Schedule management

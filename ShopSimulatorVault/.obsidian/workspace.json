@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Design Document.md",
+                "file": "Sprint Logs/Sprint 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Game Design Document"
+              "title": "Sprint 1"
             }
           }
         ],
@@ -289,11 +289,12 @@
   },
   "active": "66d6866597695856",
   "lastOpenFiles": [
-    "Sprint Logs/Sprint 1.md",
     "Game Design Document.md",
+    "Game Design Document Template.md",
+    "Sprint Logs/Sprint 1.md",
+    "Sprint Logs",
     "AI Notice.md",
     "Sprint Logs",
-    "Game Design Document Template.md",
     "Economy Spreadsheet.md",
     "~$charity_shop_economy.xlsx",
     "MDA-One-Pager-Template.md",
