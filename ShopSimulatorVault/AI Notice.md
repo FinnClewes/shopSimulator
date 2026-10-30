@@ -1,0 +1,3 @@
+AI was used to generate the GDD. I gave the AI a GDD template and a list of things I wanted to include in the game.
+the prompt: "this is a GDD template, following is info on the game, can you fill in the template and tell me what other info I need"
+A base UML diagram was generated based on the GDD
