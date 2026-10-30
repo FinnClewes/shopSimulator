@@ -586,7 +586,7 @@ Buffer: Fri 26 Mar to Wed 31 Mar, 0 to 6 hours, for anything that slipped. Good 
 | Sprint | Date     | Hours | What I did                                                                                                              |
 | ------ | -------- | ----- | ----------------------------------------------------------------------------------------------------------------------- |
 | 0      | 21/10/26 | 2     | plan sprint for the rest of the semester, rewrote GDD, updated uml                                                      |
-| 1      | 29/10/26 | 5     | re-allocated time and tasks for each sprint, updated GDD, made character controller, made basic interact raycast system |
+| 1      | 29/10/26 | 6     | re-allocated time and tasks for each sprint, updated GDD, made character controller, made basic interact raycast system |
 |        |          |       |                                                                                                                         |
 
 ## 11.3 Schedule management
