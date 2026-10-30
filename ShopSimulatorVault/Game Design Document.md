@@ -458,7 +458,7 @@ Customer models for 3 temperaments
 ## 10.4 Environments
 Shop floor, back room, exterior
 ## 10.5 Equipment
-4 donation item types, 2 decorations, 2 shelf type, cleaning station, till
+4 donation item types, 2 decorations, 1 shelf type, cleaning station, till
 ## 10.6 Cut scenes
 None
 ## 10.7 Miscellaneous 

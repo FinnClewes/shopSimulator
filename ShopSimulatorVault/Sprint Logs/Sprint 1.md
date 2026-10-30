@@ -17,6 +17,7 @@
 - First-person Controller
     - no sprint option
     - a lot of unused packages from unity samples that need to be cleaned up
+    - integration is time consuming
 - Interact system
 	- Only one interactable object
 	- No functionality on interact
