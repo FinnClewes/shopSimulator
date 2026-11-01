@@ -7,9 +7,9 @@
 - Customer Spawner
 ## Completed
 - First-person Controller
-- Interact system+
+- Interact system
 - Greybox Scene
-## Carry Over
+## Carry to next sprint
 - Carry system
 - Day Timer
 - Customer Spawner
@@ -25,9 +25,10 @@
 	- no time was specifically dedicated to this, objects were added as needed for functionality
 	- player is prone to falling off the map as there is no walls
 ## Notes
-- 5 hours spent this sprint
+- 6 hours spent this sprint
 - Consider changing to standard CharacterController as integration is time consuming
 - Not enough time was spent this sprint - a lot of tasks were not completed
 - There is a basic scene in place but needs more work
 ### References
 [First Person Character Controller Setup](https://docs.unity3d.com/Packages/com.unity.charactercontroller@1.0/manual/get-started-first-person.html)
+
