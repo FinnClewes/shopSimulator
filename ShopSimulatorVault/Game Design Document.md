@@ -587,7 +587,7 @@ Buffer: Fri 26 Mar to Wed 31 Mar, 0 to 6 hours, for anything that slipped. Good 
 | ------ | -------- | ----- | ----------------------------------------------------------------------------------------------------------------------- |
 | 0      | 21/10/26 | 2     | plan sprint for the rest of the semester, rewrote GDD, updated uml                                                      |
 | 1      | 29/10/26 | 6     | re-allocated time and tasks for each sprint, updated GDD, made character controller, made basic interact raycast system |
-|        |          |       |                                                                                                                         |
+| 2      | 05/11/26 | 3     | carry system.  placeholder shelf and donations. remade UML. basic customer spawning                                     |
 
 ## 11.3 Schedule management
 
