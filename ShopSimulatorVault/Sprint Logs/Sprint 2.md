@@ -20,6 +20,8 @@
 - time management is poor - need to cut back on scope to make deadlines
 - git commits were messy - merge conflicts, lack of naming scheme
 ## Notes
+- time between customer spawns is currently low for testing purposes
+- 
 
 ### References
 
