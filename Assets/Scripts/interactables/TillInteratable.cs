@@ -3,8 +3,13 @@ using UnityEngine;
 public class TillInteratable : MonoBehaviour, IInteractable
 {
     [SerializeField] TillQueue queue;
+    [SerializeField] EconomyManager economy;
 
-    bool CanServe => queue.Front != null && queue.Front.State == CustomerState.Waiting;
+    [SerializeField] HagglingMinigame haggle;
+
+    bool CanServe => !haggle.IsOpen
+              && queue.Front != null
+              && queue.Front.State == CustomerState.Waiting;
 
     public string Prompt => CanServe ? "serve customer" : "no customers waiting";
 
@@ -15,9 +20,12 @@ public class TillInteratable : MonoBehaviour, IInteractable
         var customer = queue.Front;
         customer.Serve();
 
-        // TODO: haggling minigame goes here, then pay money on finish
-        Debug.Log("Sale made");
-
-        customer.FinishServed();
+        haggle.Begin(multiplier =>
+        {
+            int price = Mathf.RoundToInt(5 * multiplier);   // 5 = baseline for now
+            economy.Earn(price);
+            Debug.Log($"Sale made for €{price}");
+            customer.FinishServed();
+        });
     }
 }
