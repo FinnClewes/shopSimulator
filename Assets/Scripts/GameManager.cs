@@ -1,8 +1,12 @@
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] CustomerSpawner spawner;
+    [SerializeField] EconomyManager economy;
+    [SerializeField] GameObject summaryPanel;
+    [SerializeField] TMP_Text summaryText;
 
     int currentDay = 0;
     int weekNumber = 1;
@@ -34,19 +38,23 @@ public class GameManager : MonoBehaviour
     {
         phase = GamePhase.Day;
         currentDay++;
+        weekNumber = (currentDay - 1) / 7 + 1;      // days 1-7 = week 1, 8-14 = week 2, ...
+        summaryPanel.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         spawner.StartDay(CustomerSpawner.GetCustomerCount(weekNumber));
     }
 
     public void EndDay()
     {
-        phase = GamePhase.Night;   // stops Update from calling EndDay() every frame
-        Debug.Log($"Day {currentDay} complete");
-        // day summary screen
-        //  - money earned/lost
-        //  - customers served
-        //  - shop screen button (triggers night)
-        //      - otherwise next day button (skip night)
+        phase = GamePhase.Night;
+        summaryText.text = $"Day {currentDay} complete\nMoney: €{economy.Money}";
+        summaryPanel.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
+
+    public void NextDay() => StartDay();
 
     public void StartNight()
     {
