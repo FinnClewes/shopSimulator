@@ -15,6 +15,9 @@ public class CustomerSpawner : MonoBehaviour
     public int customersRemaining { get; private set; }
     public int activeCustomers { get; private set; }
 
+    public int CustomersLeft => customersRemaining + activeCustomers;
+    public event System.Action OnCountChanged;
+
     readonly Queue<float> spawnTimes = new();
     float dayTimer;
     bool running;
@@ -38,6 +41,7 @@ public class CustomerSpawner : MonoBehaviour
             spawnTimes.Enqueue(t);          // FIFO: earliest time spawns first
         }
         running = true;
+        OnCountChanged?.Invoke();
     }
 
     void Update()
@@ -60,7 +64,11 @@ public class CustomerSpawner : MonoBehaviour
         activeCustomers++;
     }
 
-    public void OnCustomerLeft() => activeCustomers--;
+    public void OnCustomerLeft()
+    {
+        activeCustomers--;
+        OnCountChanged?.Invoke();
+    }
 
     public bool IsDayComplete => customersRemaining == 0 && activeCustomers == 0;
 }
