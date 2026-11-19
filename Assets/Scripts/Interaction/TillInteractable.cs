@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TillInteratable : MonoBehaviour, IInteractable
+public class TillInteractable : MonoBehaviour, IInteractable
 {
     [SerializeField] TillQueue queue;
     [SerializeField] EconomyManager economy;
