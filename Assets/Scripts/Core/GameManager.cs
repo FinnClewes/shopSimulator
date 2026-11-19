@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,6 +8,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] EconomyManager economy;
     [SerializeField] GameObject summaryPanel;
     [SerializeField] TMP_Text summaryText;
+
+    [SerializeField] GameObject nextDayButton;
+    [SerializeField] int daysPerWeek = 7;
 
     int currentDay = 0;
     int weekNumber = 1;
@@ -38,7 +42,7 @@ public class GameManager : MonoBehaviour
     {
         phase = GamePhase.Day;
         currentDay++;
-        weekNumber = (currentDay - 1) / 7 + 1;      // days 1-7 = week 1, 8-14 = week 2, ...
+        weekNumber = (currentDay - 1) / daysPerWeek + 1;
         summaryPanel.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -48,10 +52,27 @@ public class GameManager : MonoBehaviour
     public void EndDay()
     {
         phase = GamePhase.Night;
-        summaryText.text = $"Day {currentDay} complete\nMoney: €{economy.Money}";
-        summaryPanel.SetActive(true);
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        string text = $"Day {currentDay} complete\nMoney: €{economy.Money}";
+        int rent = economy.Rent.GetRentDue(weekNumber);
+
+        if (currentDay % daysPerWeek == 0)                 // last day of the week: rent is due now
+        {
+            if (!economy.PayRent(weekNumber))
+            {
+                GameOver($"You couldn't pay the €{rent} rent");
+                return;
+            }
+            text += $"\nRent paid: €{rent}";
+        }
+        else
+        {
+            int daysLeft = daysPerWeek - (currentDay % daysPerWeek);
+            text += $"\nRent of €{rent} due in {daysLeft} day(s)";
+        }
+
+        summaryText.text = text;
+        nextDayButton.SetActive(true);
+        ShowSummary();
     }
 
     public void NextDay() => StartDay();
@@ -68,8 +89,20 @@ public class GameManager : MonoBehaviour
         weekNumber++;
     }
 
-    public void GameOver()
+    public void GameOver(string reason)
     {
         phase = GamePhase.GameOver;
+        summaryText.text = $"GAME OVER\n{reason}\nDays survived: {currentDay}";
+        nextDayButton.SetActive(false);
+        ShowSummary();
     }
+
+    void ShowSummary()
+    {
+        summaryPanel.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    public void Restart() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 }

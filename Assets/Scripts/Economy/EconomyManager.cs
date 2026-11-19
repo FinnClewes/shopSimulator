@@ -7,6 +7,10 @@ public class EconomyManager : MonoBehaviour
 
     public event Action<int> OnMoneyChanged;
 
+    public RentSystem Rent { get; } = new RentSystem();
+
+    public bool PayRent(int week) => Spend(Rent.GetRentDue(week));
+
     void Start() => OnMoneyChanged?.Invoke(Money);   // so the HUD shows 0 at the start
 
     public void Earn(int amount)

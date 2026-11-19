@@ -10,9 +10,11 @@
 ## Carry to next sprint
 
 ## Issues
+- Day number and rent amount due is only visible on summary screen
+- Rent amount is not tuned and tested
 
 ## Notes
--  1.5 hours spent this sprint
+-  3 hours spent this sprint
 ### References
 https://docs.unity.com/en-us/engine/6000.3/script-reference/unityengine/color/lerp
 
