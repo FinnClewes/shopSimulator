@@ -9,6 +9,11 @@ public class Customer : MonoBehaviour
     CustomerSpawner spawner;
     TillQueue queue;
 
+    [SerializeField] float patienceDecayRate = 0.025f;
+    public PatienceSystem Patience {  get; private set; } = new PatienceSystem();
+
+    Renderer rend;
+
     public CustomerState State { get; private set; }
 
     public void Init(CustomerSpawner s, TillQueue q)
@@ -18,6 +23,8 @@ public class Customer : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         State = CustomerState.WalkToQueue;
         queue.Enqueue(this);          // joins the line straight away
+        Patience.DecayRate = patienceDecayRate;
+        rend = GetComponentInChildren<Renderer>();
     }
 
     // Called by TillQueue to say where to stand
@@ -30,6 +37,14 @@ public class Customer : MonoBehaviour
 
     void Update()
     {
+        if (State == CustomerState.WalkToQueue || State == CustomerState.Waiting)
+        {
+            Patience.Tick(Time.deltaTime);
+
+            if (rend != null)
+                rend.material.color = Color.Lerp(Color.red, Color.green, Patience.GetMultiplier() - 0.5f);
+        }
+
         if (agent == null || agent.pathPending) return;
 
         bool arrived = agent.remainingDistance <= agent.stoppingDistance + 0.1f;

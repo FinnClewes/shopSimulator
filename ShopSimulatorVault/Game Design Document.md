@@ -637,6 +637,8 @@ Buffer: Fri 26 Mar to Wed 31 Mar, 0 to 6 hours, for anything that slipped. Good 
 | 1      | 29/10/26 | 4     | re-allocated time and tasks for each sprint, made character controller, made basic interact raycast system |
 | 2      | 5/11/26  | 3     | customer spawner, carry system, shelf inventory, customer despawn                                          |
 | 3      | 12/11/26 | 4     | till queue, basic UI, haggling minigame                                                                    |
+| 4      | 18/11/26 | 1     | fix haggling, customers left ui, day end panel, next day button, fix canvas scaling                        |
+| 4      | 19/11/26 | .5    | patience system                                                                                            |
 
 ## 11.3 Schedule management
 

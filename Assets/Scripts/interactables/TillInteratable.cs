@@ -22,9 +22,10 @@ public class TillInteratable : MonoBehaviour, IInteractable
 
         haggle.Begin(multiplier =>
         {
-            int price = Mathf.RoundToInt(5 * multiplier);   // 5 = baseline for now
+            float patience = customer.Patience.GetMultiplier();
+            int price = Mathf.RoundToInt(5 * multiplier * patience);   // 5 = baseline for now
             economy.Earn(price);
-            Debug.Log($"Sale made for €{price}");
+            Debug.Log($"Sale: 5 x haggle {multiplier:0.00} x patience {patience:0.00} = €{price}");
             customer.FinishServed();
         });
     }
