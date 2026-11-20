@@ -13,6 +13,8 @@ public class PatienceSystem : MonoBehaviour
 
     public float GetMultiplier() => value;
 
+    public bool IsOutOfPatience => value <= Lowerbound + 0.0001f;
+
     public void Tick(float deltaTime)
     {
         if (heldfor < HoldTime) 

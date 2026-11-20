@@ -15,6 +15,10 @@ public class CustomerSpawner : MonoBehaviour
     public int customersRemaining { get; private set; }
     public int activeCustomers { get; private set; }
 
+    public int CustomersLost { get; private set; }
+
+    public void RegisterLost() => CustomersLost++;
+
     public int CustomersLeft => customersRemaining + activeCustomers;
     public event System.Action OnCountChanged;
 
@@ -32,6 +36,7 @@ public class CustomerSpawner : MonoBehaviour
         customersRemaining = count;
         activeCustomers = 0;
         dayTimer = 0f;
+        CustomersLost = 0;
 
         float window = dayLength * spawnWindow;
         float gap = window / count;

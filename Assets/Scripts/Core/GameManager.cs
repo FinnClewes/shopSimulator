@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
     public void EndDay()
     {
         phase = GamePhase.Night;
-        string text = $"Day {currentDay} complete\nMoney: €{economy.Money}";
+        string text = $"Day {currentDay} complete\nMoney: €{economy.Money}\nCustomers lost: {spawner.CustomersLost}";
         int rent = economy.Rent.GetRentDue(weekNumber);
 
         if (currentDay % daysPerWeek == 0)                 // last day of the week: rent is due now

@@ -43,6 +43,12 @@ public class Customer : MonoBehaviour
 
             if (rend != null)
                 rend.material.color = Color.Lerp(Color.red, Color.green, Patience.GetMultiplier() - 0.5f);
+
+            if (Patience.IsOutOfPatience)
+            {
+                LeaveAngry();
+                return;
+            }
         }
 
         if (agent == null || agent.pathPending) return;
@@ -60,7 +66,7 @@ public class Customer : MonoBehaviour
     public void Serve() => State = CustomerState.BeingServed;
     public void FinishServed()
     {
-        queue.Remove(this);           // everyone behind steps forward
+        queue.Remove(this);
         State = CustomerState.Leaving;
         agent.SetDestination(spawner.exitPoint.position);
     }
@@ -69,5 +75,14 @@ public class Customer : MonoBehaviour
     {
         spawner.OnCustomerLeft();
         Destroy(gameObject);
+    }
+
+    void LeaveAngry()
+    {
+        Debug.Log($"{name} ran out of patience and left");
+        spawner.RegisterLost();
+        queue.Remove(this);
+        State = CustomerState.Leaving;
+        agent.SetDestination(spawner.exitPoint.position);
     }
 }

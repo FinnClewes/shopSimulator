@@ -254,7 +254,7 @@ Values come from a spreadsheet balance pass (charity_shop_economy.xlsx) and shou
 
 **Donation types (4):** Plates (€5), books (€1), t-shirts (€7), balls (€3). Items arrive clean or dirty.
 
-**Patience:** Each customer has a patience multiplier that starts at 1.5× and falls toward the lower bound of 0.5× the longer they wait to be served. Impatient customers lose patience fastest. [TO DECIDE: decay rates per temperament, and whether customers leave at the lower bound.]
+**Patience:** Each customer has a patience multiplier that starts at 1.5× and falls toward the lower bound of 0.5× the longer they wait to be served. Impatient customers lose patience fastest. Customers leave when their patience runs out. [TO DECIDE: decay rates per temperament.]
 
 ## 4.3 Screen Flow
 

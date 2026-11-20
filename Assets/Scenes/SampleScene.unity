@@ -295,7 +295,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -190.01799, y: -0.00415802, z: -186.60748, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1421,8 +1421,8 @@ RectTransform:
   - {fileID: 1148455025}
   - {fileID: 912547151}
   - {fileID: 1081979015}
-  - {fileID: 255490683}
   - {fileID: 1176220213}
+  - {fileID: 255490683}
   - {fileID: 2100386119}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

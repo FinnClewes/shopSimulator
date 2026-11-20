@@ -49,8 +49,7 @@
               "title": "Sprint 2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,10 +216,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "8eb5ae2a73ba1e0c",
+  "active": "66d6866597695856",
   "lastOpenFiles": [
-    "Game Design Document.md",
     "Sprint Logs/Sprint 4.md",
+    "Game Design Document.md",
     "Sprint Logs/Sprint 3.md",
     "Game Design Document Template.md",
     "Sprint Logs/Sprint 1.md",
