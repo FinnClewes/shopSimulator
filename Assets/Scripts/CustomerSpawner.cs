@@ -10,6 +10,8 @@ public class CustomerSpawner : MonoBehaviour
     [SerializeField] float dayLength = 180f;
     [SerializeField] float spawnWindow = 0.8f;   // spawn within first 80% of the day
 
+    [SerializeField] TillQueue tillQueue;
+
     public int customersRemaining { get; private set; }
     public int activeCustomers { get; private set; }
 
@@ -53,7 +55,7 @@ public class CustomerSpawner : MonoBehaviour
     void SpawnCustomer()
     {
         var c = Instantiate(customerPrefab, spawnPoint.position, spawnPoint.rotation);
-        c.Init(this);
+        c.Init(this, tillQueue);
         customersRemaining--;
         activeCustomers++;
     }

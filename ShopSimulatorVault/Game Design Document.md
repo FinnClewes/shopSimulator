@@ -4,77 +4,77 @@ _Survive as many days as you can running a brand-new charity shop._
 
 ## 2. Table of Contents
 
-[[#3. Game Overview]]
-	[[#3.1 Game Concept]]
+[[#3. Game Overview]] 
+	[[#3.1 Game Concept]] 
 	[[#3.2 Feature Set]]
-	[[#3.3 Genre]]
-	[[#3.4 Target Audience]]
-	[[#3.5 Game Flow Summary]]
-	[[#3.6 Look and Feel]]
-	[[#3.7 Project Scope]]
-[[#4. Gameplay and Mechanics]]
-	[[#4.1 Gameplay]]
-		[[#4.1.1 Game Progression]]
-	[[#4.2 Mechanics]]
-		[[#4.2.1 Physics]]
-		[[#4.2.2 Movement]]
-		[[#4.2.3 Objects]]
-		[[#4.2.4 Actions]]
-		[[#4.2.5 Combat / Conflict]]
-		[[#4.2.6 Economy]]
-	[[#4.3 Screen Flow]]
-		[[#4.3.1 Screen Flow Chart]]
-		[[#4.3.2 Screen Descriptions]]
-	[[#4.4 Game Options]]
-	[[#4.5 Replaying and Saving]]
-[[#5. Story, Setting and Character]]
-	[[#5.1 Story and Narrative]]
-		[[#5.1.1 Back Story]]
-		[[#5.1.2 Plot Elements]]
-		[[#5.1.3 Game Progression]]
-		[[#5.1.4 Cut Scenes]]
-	[[#5.2 Game World]]
-		[[#5.2.1 General Look and Feel]]
-		[[#5.2.2 Area 1 Shop Floor]]
-		[[#5.2.3 Area 2 Back Room]]
-	[[#5.3 Characters]]
-		[[#5.3.1 Player (Manager)]]
-		[[#5.3.2 Customers (3 temperaments)]]
-[[#6. Levels]]
-	[[#6.1 Day 1]]
-	[[#6.2 Later Days]]
-[[#7. Interface]]
-	[[#7.1 Visual System]]
-	[[#7.2 Control System]]
-	[[#7.3 Audio]]
-	[[#7.4 Music]]
-[[#8. Artificial Intelligence]]
-	[[#8.1 Opponent AI]]
-	[[#8.2 Enemy AI]]
-	[[#8.3 Non-combat Characters]]
-	[[#8.4 Friendly Characters]]
-	[[#8.5 Support AI]]
-		[[#8.5.1 Collision]]
-		[[#8.5.2 Pathfinding]]
-[[#9. Technical]]
-	[[#9.1 Target Hardware]]
-	[[#9.2 Development hardware/software]]
-		[[#9.2.1 Hardware]]
-		[[#9.2.2 Software]]
-	[[#9.3 Procedures and standards]]
-	[[#9.4 Game Engine]]
-	[[#9.5 Network]]
-	[[#9.6 Scripting Language]]
-[[#10. Game Art]]
-	[[#10.1 Concept Art]]
-	[[#10.2 Style Guides]]
-	[[#10.3 Characters]]
-	[[#10.4 Environments]]
-	[[#10.5 Equipment]]
-	[[#10.6 Cut scenes]]
-	[[#10.7 Miscellaneous]]
-[[#11. Project Management]]
-	[[#11.1 Methodology]]
+	[[#3.3 Genre]] 
+	[[#3.4 Target Audience]] 
+	[[#3.5 Game Flow Summary]] 
+	[[#3.6 Look and Feel]] 
+	[[#3.7 Project Scope]] 
+[[#4. Gameplay and Mechanics]] 
+	[[#4.1 Gameplay]] 
+		[[#4.1.1 Game Progression]] 
+	[[#4.2 Mechanics]] 
+		[[#4.2.1 Physics]] 
+		[[#4.2.2 Movement]] 
+		[[#4.2.3 Objects]] 
+		[[#4.2.4 Actions]] 
+		[[#4.2.5 Combat / Conflict]] 
+		[[#4.2.6 Economy]] 
+	[[#4.3 Screen Flow]] 
+		[[#4.3.1 Screen Flow Chart]] 
+		[[#4.3.2 Screen Descriptions]] 
+	[[#4.4 Game Options]] 
+	[[#4.5 Replaying and Saving]] 
+[[#5. Story, Setting and Character]] 
+	[[#5.1 Story and Narrative]] 
+		[[#5.1.1 Back Story]] 
+		[[#5.1.2 Plot Elements]] 
+		[[#5.1.3 Game Progression]] 
+		[[#5.1.4 Cut Scenes]] 
+	[[#5.2 Game World]] 
+		[[#5.2.1 General Look and Feel]] 
+		[[#5.2.2 Area 1 Shop Floor]] 
+		[[#5.2.3 Area 2 Back Room]] 
+	[[#5.3 Characters]] 
+		[[#5.3.1 Player (Manager)]] 
+		[[#5.3.2 Customers (3 temperaments)]] 
+[[#6. Levels]] 
+	[[#6.1 Day 1]] 
+	[[#6.2 Later Days]] 
+[[#7. Interface]] 
+	[[#7.1 Visual System]] 
+	[[#7.2 Control System]] 
+	[[#7.3 Audio]] 
+	[[#7.4 Music]] 
+[[#8. Artificial Intelligence]] 
+	[[#8.1 Opponent AI]] 
+	[[#8.2 Enemy AI]] 
+	[[#8.3 Non-combat Characters]] 
+	[[#8.4 Friendly Characters]] 
+	[[#8.5 Support AI]] 
+		[[#8.5.1 Collision]] 
+		[[#8.5.2 Pathfinding]] 
+[[#9. Technical]] 
+	[[#9.1 Target Hardware]] 
+	[[#9.2 Development hardware/software]] 
+		[[#9.2.1 Hardware]] 
+		[[#9.2.2 Software]] 
+	[[#9.3 Procedures and standards]] 
+	[[#9.4 Game Engine]] 
+	[[#9.5 Network]] 
+	[[#9.6 Scripting Language]] 
+[[#10. Game Art]] 
+	[[#10.1 Concept Art]] 
+	[[#10.2 Style Guides]] 
+	[[#10.3 Characters]] 
+	[[#10.4 Environments]] 
+	[[#10.5 Equipment]] 
+	[[#10.6 Cut scenes]] 
+	[[#10.7 Miscellaneous]] 
+[[#11. Project Management]] 
+	[[#11.1 Methodology]] 
 	[[#11.2 Schedule and Time Management]] 
 		[[#11.2.1 Key dates]] 
 		[[#11.2.2 Weekly timetable and work sessions]] 
@@ -92,19 +92,20 @@ _Survive as many days as you can running a brand-new charity shop._
 	[[#12.1 Credits]] 
 	[[#12.2 References]] 
 	[[#12.3 Project logs]]
+
 # 3. Game Overview
 
 ## 3.1 Game Concept
 
-You are the manager of a new location in a chain of charity shops. By day, customers donate items and buy stock. You accept donations, clean them for a higher value, stock them on shelves, mop the floor, and haggle with buyers at the till in a timing minigame. Each day has a time limit. Buying shop expansions grows the business, but also your rent. At the start of the week you draw a challenge card, and each night you spend your earnings on shop upgrades. Fail a card at the end of the week or miss the weekly rent, and the run ends. There is no win state: the goal is to survive more days than other players.
+You are the manager of a new location in a chain of charity shops. By day, customers donate items and buy stock. You accept donations, clean them for a higher value, stock them on shelves, mop the floor, and haggle with buyers at the till by scanning barcodes in a timing minigame. Each day has a time limit. Buying shop expansions grows the business, but also your rent. Once a week you draw a challenge card, and each night you spend your earnings on shop upgrades. Fail a card at the end of the week or miss the weekly rent and the run ends. There is no win state: the goal is to survive more days than other players.
 
 ## 3.2 Feature Set
 
 - 3D first-person shop management: walk around the shop to work the till, stock shelves, sort and clean donations, and mop the floor
 - Day/night cycle with a time limit per day and rising difficulty
 - Donation processing: sort the donation box (keep or bin), clean (scored 1.0–2.0), stock shelves
-- Timing-bar sales minigame that changes the sale price
-- Challenge cards drawn on night 1 of each week (selling, rent increase, damaged decorations), judged at the end of the week (night 7)
+- Barcode-scanning sales minigame that changes the sale price
+- One challenge card drawn on night 1 of each week (selling or rent increase), judged at the end of the week
 - Nightly shop (decorations, shelves, cleaning supplies, shop expansions)
 - Shop expansion tiers, bought with money and gated by week; bigger shop means more customers, more slots and higher rent
 - Floor mopping chore
@@ -123,12 +124,12 @@ Ages 12+, fans of cosy-but-pressured management games (_Supermarket Simulator_, 
 
 ## 3.5 Game Flow Summary
 
-**Interface:** Main Menu → (Leaderboard / Options) → New Game → Day (time limit) → Night (card on night 1 of each week + shop) → next Day → … → Game Over → Submit score → Leaderboard. **In game:** Day starts → customers arrive to donate or buy → player walks the shop to sort donations, clean items, stock shelves, mop the floor and serve the till → day ends when the timer runs out → night: on night 2 of each week pull a card, and every night buy upgrades (bought shelves and decorations appear in their pre-built slots) → next day. At the end of day 7 of each week, the card is judged and rent is due.
+**Interface:** Main Menu → (Leaderboard / Options) → New Game → Day (time limit) → Night (card on night 1 of each week + shop) → next Day → … → Game Over → Submit score → Leaderboard.  
+**In game:** Day starts → customers arrive to donate or buy → player walks the shop to sort donations, clean items, stock shelves, mop the floor and serve the till → day ends when the timer runs out → night: on night 1 of each week pull a card, and every night buy upgrades (bought shelves and decorations appear in their pre-built slots) → next day. At the end of day 7 of each week, the card is judged and rent is due.
 
 ## 3.6 Look and Feel
 
-Warm, cosy, stylised low-poly 3D. A cluttered, charming shop with mismatched furniture and handwritten tags. Tension comes from UI and music escalating as days progress. 
-Mood board: [insert 3–5 images].
+Warm, cosy, stylised low-poly 3D. A cluttered, charming shop with mismatched furniture and handwritten tags. Tension comes from UI and music escalating as days progress. Mood board: [insert 3–5 images].
 
 ## 3.7 Project Scope
 
@@ -141,7 +142,7 @@ Mood board: [insert 3–5 images].
 |Decorations|2 (plant, statue)|
 |Shelf types|1 (holds 12 items)|
 |Other shop items|Cleaning supplies|
-|Card types|3 (selling, rent increase, damaged decorations)|
+|Card types|2 (selling, rent increase)|
 |Minigames|2 (cleaning, selling/haggling)|
 |Chores|1 (mopping)|
 |Weapons|0|
@@ -183,13 +184,13 @@ Survive as many days as possible by completing challenge cards and paying weekly
 
 ### 4.1.5 Play Flow
 
-Day (3-minute limit): the player walks around the shop in first person. Customers arrive and may drop donations in the bin. The player sorts the donation box, cleans items at the cleaning station, stocks shelves, mops mess, and serves customers at the till with the haggling minigame. Customers still waiting when the timer ends leave without buying. Night: on night 1 of the week, draw a card; always visit the night shop to buy upgrades and (when available) expansions. End of week: cards judged and rent paid.
+Day (3-minute limit): the player walks around the shop in first person. Customers arrive and may drop donations in the bin. The player sorts the donation box, cleans items at the cleaning station, stocks shelves, mops mess, and serves customers at the till with the haggling minigame. Customers still waiting when the timer ends leave without buying. Night: on night 1 of each week, draw a card; always visit the night shop to buy upgrades and (when available) expansions. End of week: card judged and rent paid.
 
 ## 4.2 Mechanics
 
 ### 4.2.1 Physics
 
-Simple rigid-body physics for carried items; items snap to shelves and the counter **[TO DECIDE]**. The player character uses Unity Physics (entity physics) and interactable objects use standard Unity physics (see 9.4).
+Simple rigid-body physics for carried items; items snap to shelves and the counter **[ASSUMED]**. The player character uses Unity Physics (entity physics) and interactable objects use standard Unity physics (see 9.4).
 
 ### 4.2.2 Movement
 
@@ -198,9 +199,9 @@ Simple rigid-body physics for carried items; items snap to shelves and the count
 
 ### 4.2.3 Objects
 
-- **Picking up / carrying:** The player carries one item at a time. (donation box item → cleaning station → shelf).
+- **Picking up / carrying:** The player carries one item at a time (donation box item → cleaning station → shelf).
 - **Storage:** Limited by shelf capacity (12 items per shelf).
-- **Fixed furniture slots (no runtime editor):** The shop scene is hand-built in Unity with a fixed number of **shelf slots** and **decoration slots**, each at a set position and each belonging to a shop tier. Slots in unbought tiers are locked. Buying a shelf or decoration at night fills the next free slot of that type, so the player never chooses where it goes. The shop starts with 1 shelf in place.
+- **Fixed furniture slots (no runtime editor):** The shop scene is hand-built in Unity with a fixed number of **shelf slots** and **decoration slots**, each at a set position and each belonging to a shop tier. Slots in unbought tiers are locked. Buying a shelf or decoration at night fills the next free slot of that type, so the player never chooses where it goes. The shop starts with 1 shelf in place **[TO DECIDE: number of slots per tier]**.
 - **Mess:** Customers can leave mess on the floor (muddy footprints, spills, litter) that appears as patches.
 
 ### 4.2.4 Actions
@@ -217,7 +218,7 @@ Simple rigid-body physics for carried items; items snap to shelves and the count
 No combat. Two skill minigames and one chore:
 
 - **Cleaning minigame (1.0–2.0):** The item appears in a close-up inspection view covered with 5–8 dirt spots. The player holds the mouse button and scrubs each spot to fade it out within an 8–10 second limit. **Score = 1 + (spots cleaned ÷ total spots)**, so cleaning everything gives 2.0 and doubles the price. The dirt look changes per item type (grime on plates, dust on books, stains on t-shirts, mud on balls). Each clean uses one cleaning-supply use.
-- **Selling (haggling) minigame:** A bar with a moving indicator at the till. The player presses **Space** when it is over the green zone. The better the timing, the higher the **selling multiplier**, from **0.5× to 2.5×**.
+- **Selling (haggling) minigame:** The player holds a barcode scanner at the till. A barcode scrolls across the screen from right to left, with one red price bar among the black bars and a fixed red scan line at the centre. The player presses **Space** when the price bar is on the scan line. The closer the press, the higher the **selling multiplier**, from **0.5× to 2.5×**. Pressing early or late lowers the multiplier, and letting the price bar pass the line without pressing is a failed scan (**0.5×**).
 - **Mopping (chore, not scored):** Mess patches have a dirtiness value that drains while the player mops them. Mess lowers customer patience (e.g. each patch lowers the patience lower bound slightly **[TO DECIDE]**), so ignoring the floor costs money but is quick to fix.
 
 **Final sale price = baseline × cleaning × selling × patience.**
@@ -244,12 +245,12 @@ Values come from a spreadsheet balance pass (charity_shop_economy.xlsx) and shou
 
 **Shop items:**
 
-| Item              | Effect                                                                                                                                                          |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Plant             | Raises the patience multiplier's lower bound by 0.05 each (two plants: range 1.5×–0.6×). Caps when the lower bound reaches 1.0× (10 plants). [TO DECIDE: price] |
-| Statue            | Patience stays at 1.5× for 4 seconds before it starts to decrease. Statues stack (each adds 4 seconds) [TO DECIDE: price]                                       |
-| Shelf (1 type)    | Holds 12 more items [TO DECIDE: price]. The starting layout has 1 shelf filling the first shelf slot.                                                           |
-| Cleaning supplies | €15 for 5 uses                                                                                                                                                  |
+|Item|Effect|
+|---|---|
+|Plant|Raises the patience multiplier's lower bound by 0.05 each (two plants: range 1.5×–0.6×). Caps when the lower bound reaches 1.0× (10 plants). [TO DECIDE: price]|
+|Statue|Patience stays at 1.5× for 4 seconds before it starts to decrease. Statues stack (each adds 4 seconds) [TO DECIDE: price]|
+|Shelf (1 type)|Holds 12 more items [TO DECIDE: price]. The starting layout has 1 shelf filling the first shelf slot.|
+|Cleaning supplies|€15 for 5 uses|
 
 **Donation types (4):** Plates (€5), books (€1), t-shirts (€7), balls (€3). Items arrive clean or dirty.
 
@@ -275,7 +276,7 @@ Values come from a spreadsheet balance pass (charity_shop_economy.xlsx) and shou
 
 ## 4.4 Game Options
 
-Volume sliders, mouse sensitivity, key rebinding, and accessibility (colour-blind-safe cue for the green zone).
+Volume sliders, mouse sensitivity, key rebinding, and accessibility (colour-blind-safe cue for the red price bar, such as making it taller or adding a marker above it).
 
 ## 4.5 Replaying and Saving
 
@@ -343,7 +344,7 @@ One endless level (the shop) with escalating days.
 
 - **Synopsis:** Gentle introduction to donating, cleaning, shelving and selling
 - **Introductory material:** Short manager briefing
-- **Objectives:** Learn the loop. No card on day 1 (the card is drawn on night 1); first rent due at end of day 7. 5 customers.
+- **Objectives:** Learn the loop. The first card is drawn on the night of day 1; first rent due at end of day 7. 5 customers.
 - **Physical description / Map:** [Insert floor plan]
 - **Critical path:** Sort donations → clean → stock shelf → mop → serve till → night shop
 - **Encounters:** Few customers, mostly patient
@@ -403,17 +404,29 @@ Day 1 prompts and a pause-menu controls and rules page.
 # 8. Artificial Intelligence
 
 ## 8.1 Opponent AI:
+
 None.
-## 8.2 Enemy AI: 
+
+## 8.2 Enemy AI:
+
 None.
+
 ## 8.3 Non-combat Characters:
+
 Customers use a state machine: enter → (optionally) drop donation in bin → browse shelves → take an item from a shelf (or leave if none) → join the till queue → wait for the player (patience multiplier decays by temperament, mess and decoration effects) → haggle → leave. They may leave mess behind. All customers still in the shop when the timer ends leave.
+
 ## 8.4 Friendly Characters:
+
 None beyond customers.
+
 ## 8.5 Support AI:
+
 ### 8.5.1 Collision:
+
 Standard Unity colliders for interactables and NavMesh agents. The player character, floor and walls use Unity Physics colliders baked from a subscene (see 9.4).
+
 ### 8.5.2 Pathfinding:
+
 Unity NavMesh
 
 ---
@@ -421,78 +434,113 @@ Unity NavMesh
 # 9. Technical
 
 ## 9.1 Target Hardware
+
 Windows PC [TO DECIDE: min specs]
+
 ## 9.2 Development hardware/software
+
 ### 9.2.1 Hardware
-**Processor:** 12th Gen Intel(R) Core(TM) i7-1255U
-**RAM:** 16GB
+
+**Processor:** 12th Gen Intel(R) Core(TM) i7-1255U  
+**RAM:** 16GB  
 **Graphics Card:** Intel(R) Xe Graphics (128MB)
+
 ### 9.2.2 Software
+
 Windows 11, Unity 6000.3.10.f1, Visual Studio
+
 ## 9.3 Procedures and standards
+
 C# naming conventions, folder structure, regular commits
+
 ## 9.4 Game Engine
+
 Unity, chosen because it was learned in college.
 
 **Player controller and scene setup.** The first-person player uses Unity's Character Controller package (Standard Characters, First Person sample), which runs on Unity's entity (DOTS) systems with Unity Physics and Entities Graphics. Objects in a **subscene** are baked into entities. In this project the subscene holds the player and character prefabs, the floor, walls and any other solid object the player must not walk through (standard Box Colliders, baked by Unity Physics). Everything else lives in the normal scene as ordinary GameObjects: the Main Camera (which copies the character's View entity every frame), the GameManager, UI, customers (NavMesh agents) and interactable objects.
 
 **Interaction.** An `Interactor` script on the Main Camera fires a `Physics.Raycast` from the camera against colliders on an Interactable layer. Objects implement an `IInteractable` interface (`Prompt` and `Interact()`), and a "Press E" prompt shows while the player looks at one. Because entity physics and standard physics are separate worlds, an interactable that must also block the player needs a collider in each world.
 
-**[TO DECIDE: if this integration costs too much time, switch to Unity's standard `CharacterController` component so everything lives in one normal scene.]**
+**[TO DECIDE:** if this integration costs too much time, switch to Unity's standard `CharacterController` component so everything lives in one normal scene.**]**
+
 ## 9.5 Network
+
 Unity Gaming Services **Leaderboards** for days survived. Requires Unity Authentication (anonymous sign-in) and a leaderboard configured in the Unity Cloud dashboard. Handle offline play gracefully.
+
 ## 9.6 Scripting Language
+
 C#
 
 ---
 
 # 10. Game Art
 
-> For Section 1 the build is a greybox (primitive shapes, placeholder UI). Final art and audio are Section 2 tasks, so the items below describe the eventual plan.
-## 10.1 Concept Art: 
+> For the January demo the build is a greybox (primitive shapes, placeholder UI). The art and audio pass happens in Semester 2 (sprints 16 to 18), so the items below describe the finished game.
+
+## 10.1 Concept Art:
+
 [Mood boards, sketches]
-## 10.2 Style Guides 
+
+## 10.2 Style Guides
+
 [Palette, shape language, texture style]
-## 10.3 Characters 
+
+## 10.3 Characters
+
 Customer models for 3 temperaments
+
 ## 10.4 Environments
+
 Shop floor, back room, exterior
+
 ## 10.5 Equipment
+
 4 donation item types, 2 decorations, 1 shelf type, cleaning station, till
+
 ## 10.6 Cut scenes
+
 None
-## 10.7 Miscellaneous 
+
+## 10.7 Miscellaneous
+
 [UI, card art, logo]
 
 ---
 
 # 11. Project Management
 
+## 11.1 Methodology
+
+Scrum-style, solo, with 1-week sprints running Friday to Thursday. The Friday morning mentor meeting doubles as the sprint review (what I finished, a short demo, what blocked me) and sprint planning for the week ahead. Each sprint has a goal, a Trello board (To Do, In Progress, Testing, Done), and an hours log. No daily stand-ups; instead a 10-minute planning check at the start of every work session.
+
 ## 11.2 Schedule and Time Management
 
 **What is being delivered.** The project has two stages. **Stage 1 (January 2027):** this GDD, the Semester 1 report, and a playable **greybox demo** (primitive shapes, placeholder UI) showing one full playable week. **Stage 2 (to the end of March 2027):** the finished game, built using examiner feedback, with cards, shop expansion, leaderboard, menus, art, audio and polish. The Project 1 Semester 1 Report and the presentation/demo in the first week of January are the official Stage 1 deadlines.
 
-**Constraints.** I am taking six other classes (5 credits each) in Semester 1, with assignments and labs throughout the term, and this project is worth 5 credits. In Semester 2 the project is worth double the credits, so I have more time to allocate. I have a mentor meeting every **Friday morning**; each Friday I bring a short demo or progress summary and one question.
+**Constraints.** I am taking six other classes (5 credits each) in Semester 1, with assignments and labs through the term, and this project is worth 5 credits. In Semester 2 the project is worth double the credits, so I have more time to allocate. I have a mentor meeting every **Friday morning** (assumed to continue in Semester 2); the mentor has not asked for anything specific, so each Friday I bring a short demo or progress summary and one question. I do not work on Friday evenings or Sundays, and not after 21:00 unless there is an emergency such as a deadline that night.
 
 ### 11.2.1 Key dates
 
-| Date                    | Event                                                                                                                                        |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Wed 21 Oct 2026         | Plan starts (term week 7)                                                                                                                    |
-| Wed 28 Oct              | Plan revised (reading week); no build progress yet, so Sprint 1 restarts today                                                               |
-| Thu 5 Nov               | First playable selling day (end of Sprint 2)                                                                                                 |
-| Fri 13 Nov              | Mentor meeting: demo of a playable selling day with donations, cleaning and patience                                                         |
-| Sat 2 Jan 2027, 23:55   | Official: Semester 1 Report due (assessment sheet says "Sunday 2nd January"; 2 Jan 2027 is a Saturday, so confirm against the project brief) |
-| Week of 4 Jan 2027      | Official: presentation/demo of the greybox (sheet says "Monday 3rd January"; Monday is 4 Jan, confirm)                                       |
-| Mon 18 Jan              | Semester 2 classes start                                                                                                                     |
-| Thu 21 Jan              | Feature-complete greybox (Sprint 13)                                                                                                         |
-| Fri 12 Mar              | Feature freeze                                                                                                                               |
-| Fri 19 Mar              | Target finish                                                                                                                                |
-| Mon 22 Mar to Fri 2 Apr | Easter break (no classes)                                                                                                                    |
-| **Wed 31 Mar**          | **Personal deadline: game finished (end of March)**                                                                                          |
+|Date|Event|
+|---|---|
+|Wed 21 Oct 2026|Plan starts (term week 7)|
+|Wed 28 Oct|Plan revised (reading week); no build progress yet, so Sprint 1 restarts today|
+|Thu 5 Nov|First playable selling day (end of Sprint 2)|
+|Fri 13 Nov|Mentor meeting: demo of a playable selling day with donations, cleaning and patience|
+|Sat 2 Jan 2027, 23:55|Official: Semester 1 Report due (my assessment sheet says "Sunday 2nd January"; 2 Jan 2027 is a Saturday, so confirm against the project brief)|
+|Week of 4 Jan 2027|Official: presentation/demo of the greybox (sheet says "Monday 3rd January"; Monday is 4 Jan, confirm)|
+|Mon 18 Jan|Semester 2 classes start|
+|Thu 21 Jan|Feature-complete greybox (Sprint 13)|
+|Fri 12 Mar|Feature freeze|
+|Fri 19 Mar|Target finish|
+|Mon 22 Mar to Fri 2 Apr|Easter break (no classes)|
+|**Wed 31 Mar**|**Personal deadline: game finished (end of March)**|
 
-Semester 2 timetable, examiner feedback and assessment dates are not known yet, so Semester 2 work sessions will be planned on once they are available.
+Assumptions to confirm: examiner feedback arrives about the end of January; mentor meetings continue weekly in Semester 2; the Semester 2 timetable and assessment dates are not known yet, so Semester 2 work sessions will be planned on Fri 15 Jan once they are.
+
 ### 11.2.2 Weekly timetable and work sessions
+
+Semester 1 class days are heavy: Monday (9:15 to 13:15 and 14:15 to 17:15), Wednesday (9:15 to 13:15 and 15:15 to 17:15) and Thursday (11:15 to 13:15 and 14:15 to 17:15). Tuesday has only two lectures (12:15 and 15:15) and **Friday has no classes**. The free daytime blocks are Friday (all day), Tuesday 9:15 to 12:15, Tuesday 13:15 to 15:15, Wednesday 13:15 to 15:15, Thursday 9:15 to 11:15, and Monday 13:15 to 14:15.
 
 Proposed sessions in a normal term week:
 
@@ -505,7 +553,7 @@ Proposed sessions in a normal term week:
 |**Fixed total**||**11**|
 |Flex / catch-up (optional)|One weekday evening, 18:30 to 21:00, or Saturday daytime|2 to 3|
 
-In heavy assessment weeks I use only some of these sessions. To catch up on this, I spend extra time on weeks with no classes/assignments due. For Semester 2, the sessions will be re-planned when the new timetable is known.
+In heavy assessment weeks I use only some of these sessions. To catch up on this, I spend extra time on weeks with no classes/assignments due. For Semester 2, the sessions will be re-planned when the new timetable is known **[TO DECIDE]**.
 
 ### 11.2.3 Other deadlines by term week
 
@@ -568,7 +616,7 @@ Buffer: Fri 26 Mar to Wed 31 Mar, 0 to 6 hours, for anything that slipped. Good 
 ### 11.2.5 Priorities
 
 - **For the January demo (must have):** first-person loop, customers and till queue, shelves and stocking, haggling minigame, cleaning minigame, donation sorting, rent and game over, night shop (supplies, plant, shelf).
-- **For the finished game (must have):** one weekly card (selling and rent), Tier 2 expansion, leaderboard, main menu and options, examiner must-fix list, art pass, sound effects, two playtest rounds.
+- **For the finished game (must have):** one weekly card (selling or rent), Tier 2 expansion, leaderboard, main menu and options, examiner must-fix list, art pass, sound effects, two playtest rounds.
 - **Should / could have:** statue, per-temperament patience, rubbish sorting, mess and mopping, Tier 3 with a per-tier customer cap, music, camera polish.
 
 ### 11.2.6 Risks and how I handle them
@@ -583,11 +631,12 @@ Buffer: Fri 26 Mar to Wed 31 Mar, 0 to 6 hours, for anything that slipped. Good 
 
 ### 11.2.7 Hours log
 
-| Sprint | Date     | Hours | What I did                                                                                                              |
-| ------ | -------- | ----- | ----------------------------------------------------------------------------------------------------------------------- |
-| 0      | 21/10/26 | 2     | plan sprint for the rest of the semester, rewrote GDD, updated uml                                                      |
-| 1      | 29/10/26 | 6     | re-allocated time and tasks for each sprint, updated GDD, made character controller, made basic interact raycast system |
-| 2      | 05/11/26 | 3     | carry system.  placeholder shelf and donations. remade UML. basic customer spawning                                     |
+| Sprint | Date     | Hours | What I did                                                                                                 |
+| ------ | -------- | ----- | ---------------------------------------------------------------------------------------------------------- |
+| 0      | 21/10/26 | 2     | plan sprint for the rest of the semester, rewrote GDD, updated uml                                         |
+| 1      | 29/10/26 | 4     | re-allocated time and tasks for each sprint, made character controller, made basic interact raycast system |
+| 2      | 5/11/26  | 3     | customer spawner, carry system, shelf inventory, customer despawn                                          |
+| 3      | 12/11/26 | 4     | till queue, basic UI, haggling minigame                                                                    |
 
 ## 11.3 Schedule management
 
@@ -611,9 +660,9 @@ If time runs short, features are dropped in the order below, starting at number 
 
 **Already dropped**
 
-| Feature                  | Reason                                                                                                             | Hours saved |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------ | ----------- |
-| Damaged decorations card | Lowest value of the three card types; needs a damage state, replacement cost and extra UI, no 'fail' state decided | about 3     |
+|Feature|Reason|Hours saved|
+|---|---|---|
+|Damaged decorations card|Lowest value of the three card types; needs a damage state, replacement cost and extra UI|about 3|
 
 **Drop order**
 
@@ -634,7 +683,7 @@ If time runs short, features are dropped in the order below, starting at number 
 
 **When I decide**
 
-- **Every Friday:** hours worked are checked against the sprint plan. If a sprint ended under 70% of its planned hours, the next item on the list is dropped.
+- **Every Friday** at the mentor meeting I check hours worked against the sprint plan. If a sprint ended under 70% of its planned hours, the next item on the list is dropped.
 - **Fri 13 Nov (after the demo):** if the core loop is not playable, drop items 1 to 3 and the optional Semester 2 items (Tier 3, music, camera polish).
 - **Fri 11 Dec:** the January demo scope is frozen. Nothing from the Semester 2 list is started before the report is submitted.
 - **Fri 22 Jan (after Sprint 13):** if the greybox is not feature-complete, drop items 4 to 6.
