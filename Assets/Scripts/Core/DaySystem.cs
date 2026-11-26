@@ -1,11 +1,13 @@
-using UnityEngine;
 using System;
+using Unity.VisualScripting;
+using UnityEngine;
 
 public class DaySystem : MonoBehaviour
 {
     [SerializeField] float dayLength = 180f;          // 3 minutes
     [SerializeField] CustomerSpawner spawner;
     [SerializeField] HagglingMinigame haggle;
+    [SerializeField] CleaningMinigame cleaning;
 
     public float TimeRemaining { get; private set; }
     public bool IsRunning { get; private set; }
@@ -29,7 +31,7 @@ public class DaySystem : MonoBehaviour
         bool everyoneDone = spawner.IsDayComplete;
 
         // never cut off a sale in progress: wait until the haggle closes
-        if ((timeUp || everyoneDone) && !haggle.IsOpen)
+        if ((timeUp || everyoneDone) && !haggle.IsOpen && !cleaning.IsOpen)
             EndDay();
     }
 
