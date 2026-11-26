@@ -10,7 +10,6 @@
 - Patience system
 - Rent system
 ## Completed
-- Day Timer
 - Till queue
 - Haggling minigame
 - money & HUD
