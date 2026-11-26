@@ -14,6 +14,7 @@
 - Till queue
 - Haggling minigame
 - money & HUD
+- Shelf inventory
 ## Carry to next sprint
 - sale calculator
 - cleaning station

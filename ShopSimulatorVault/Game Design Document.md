@@ -254,7 +254,7 @@ Values come from a spreadsheet balance pass (charity_shop_economy.xlsx) and shou
 
 **Donation types (4):** Plates (€5), books (€1), t-shirts (€7), balls (€3). Items arrive clean or dirty.
 
-**Patience:** Each customer has a patience multiplier that starts at 1.5× and falls toward the lower bound of 0.5× the longer they wait to be served. Impatient customers lose patience fastest. [TO DECIDE: decay rates per temperament, and whether customers leave at the lower bound.]
+**Patience:** Each customer has a patience multiplier that starts at 1.5× and falls toward the lower bound of 0.5× the longer they wait to be served. Impatient customers lose patience fastest. Customers leave when their patience runs out. [TO DECIDE: decay rates per temperament.]
 
 ## 4.3 Screen Flow
 
@@ -637,6 +637,9 @@ Buffer: Fri 26 Mar to Wed 31 Mar, 0 to 6 hours, for anything that slipped. Good 
 | 1      | 29/10/26 | 4     | re-allocated time and tasks for each sprint, made character controller, made basic interact raycast system |
 | 2      | 5/11/26  | 3     | customer spawner, carry system, shelf inventory, customer despawn                                          |
 | 3      | 12/11/26 | 4     | till queue, basic UI, haggling minigame                                                                    |
+| 4      | 18/11/26 | 1     | fix haggling, customers left ui, day end panel, next day button, fix canvas scaling                        |
+| 4      | 19/11/26 | 2     | patience system, organise scripts and hierarchy, rent system                                               |
+|        |          |       |                                                                                                            |
 
 ## 11.3 Schedule management
 
@@ -700,9 +703,24 @@ Images · Models · Animations · Audio · Cameras · Player controllers · Othe
 
 - **Player controllers:** Unity Character Controller package, Standard Characters sample (First Person), Unity Technologies.
 
+### Use of Generative AI
+This project used Claude as a support tool during development. All design decisions, the game concept, the mechanics, the economy values and the final choice of what to include were made by me. The AI was used as follows:
+
+- **Game Design Document:** to fill in the supplied template from my notes and to restructure and update sections as my design changed. I reviewed and edited the text, and the final document reflects my decisions.
+- **Planning:** to draft the sprint plan, Trello cards, the time-management plan and the scope-reduction order, based on my deadlines and timetable.
+- **Diagrams:** to generate a UML class diagram (Mermaid) from my design, which I then used in Excalidraw.
+- **Economy:** to build a spreadsheet model for balancing rent, income and customer numbers. I chose the final values.
+- **Code:** to explain Unity features (such as the interaction system) and to help diagnose errors. I typed, integrated, tested and debugged this code in my own project.
+- **Not used for:** writing code into the project, sprint logs.
+
+I take responsibility for the submitted work. AI output was checked by proofreading all generated output and all suggestions were ran and tested in game. Where it was wrong (for example non-sensical parts of the UML or GDD) it was corrected.
+
+Tool: Claude, by Anthropic. Dates: October 2026 to present.
 ## 12.2 References
 
-[First Person Character Controller Setup](https://docs.unity3d.com/Packages/com.unity.charactercontroller@1.0/manual/get-started-first-person.html) [Unity Physics 6.5: collider components](https://docs.unity3d.com/Packages/com.unity.physics@6.5/manual/physics-collider-components.html) [Unity Physics changelog](https://docs.unity3d.com/Packages/com.unity.physics@6.6/changelog/CHANGELOG.html)
+[First Person Character Controller Setup](https://docs.unity3d.com/Packages/com.unity.charactercontroller@1.0/manual/get-started-first-person.html)
+[Unity Physics 6.5: collider components](https://docs.unity3d.com/Packages/com.unity.physics@6.5/manual/physics-collider-components.html)
+[Unity Physics changelog](https://docs.unity3d.com/Packages/com.unity.physics@6.6/changelog/CHANGELOG.html)
 
 ## 12.3 Project logs
 

@@ -26,12 +26,14 @@ public class HagglingMinigame : MonoBehaviour
     Action<float> onFinished;
     float targetLocalX;     // centre of the price bar, in strip space
     bool finished;
+    int openedFrame;
 
     public void Begin(Action<float> callback)
     {
         onFinished = callback;
         finished = false;
         IsOpen = true;
+        openedFrame = Time.frameCount;
         resultText.text = "";
         BuildBarcode();
         strip.anchoredPosition = new Vector2(viewport.rect.width * 0.5f, 0f);   // start off the right edge
@@ -72,6 +74,7 @@ public class HagglingMinigame : MonoBehaviour
     void Update()
     {
         if (!IsOpen || finished) return;
+        if (Time.frameCount == openedFrame) return;
 
         strip.anchoredPosition += Vector2.left * scrollSpeed * Time.deltaTime;
 

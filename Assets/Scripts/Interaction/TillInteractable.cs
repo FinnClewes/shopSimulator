@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TillInteratable : MonoBehaviour, IInteractable
+public class TillInteractable : MonoBehaviour, IInteractable
 {
     [SerializeField] TillQueue queue;
     [SerializeField] EconomyManager economy;
@@ -22,9 +22,14 @@ public class TillInteratable : MonoBehaviour, IInteractable
 
         haggle.Begin(multiplier =>
         {
-            int price = Mathf.RoundToInt(5 * multiplier);   // 5 = baseline for now
+            float patience = customer.Patience.GetMultiplier();
+            var item = customer.Carrying;
+            int baseline = item != null ? item.baselinePrice : 5;
+            float cleaning = item != null ? item.cleaningScore : 1f;
+
+            int price = Mathf.RoundToInt(baseline * multiplier * patience);
             economy.Earn(price);
-            Debug.Log($"Sale made for €{price}");
+            Debug.Log($"Sale: {baseline} x clean {cleaning:0.0} x haggle {multiplier:0.00} x patience {patience:0.00} = €{price}");
             customer.FinishServed();
         });
     }
