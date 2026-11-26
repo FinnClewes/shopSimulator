@@ -1,6 +1,4 @@
-using System.Threading;
 using UnityEngine;
-using static Unity.Entities.Content.RemoteContentLocation;
 
 public class Item : MonoBehaviour, IInteractable
 {
