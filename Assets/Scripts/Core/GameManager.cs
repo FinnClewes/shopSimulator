@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject nextDayButton;
     [SerializeField] int daysPerWeek = 7;
 
+    [SerializeField] DaySystem daySystem;
+
     int currentDay = 0;
     int weekNumber = 1;
     GamePhase phase;
@@ -29,7 +31,7 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        StartDay();   // temporary: starts day 1 on Play
+        StartDay();
     }
 
     void Update()
@@ -46,7 +48,7 @@ public class GameManager : MonoBehaviour
         summaryPanel.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        spawner.StartDay(CustomerSpawner.GetCustomerCount(weekNumber));
+        daySystem.StartDay(CustomerSpawner.GetCustomerCount(weekNumber));
     }
 
     public void EndDay()
@@ -105,4 +107,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void Restart() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+    void OnEnable() => daySystem.OnDayEnded += EndDay;
+    void OnDisable() => daySystem.OnDayEnded -= EndDay;
 }

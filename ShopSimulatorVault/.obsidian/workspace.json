@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Notice.md",
+                "file": "Game Design Document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI Notice"
+              "title": "Game Design Document"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Design Document.md",
+                "file": "Sprint Logs/Sprint 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Game Design Document"
+              "title": "Sprint 5"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -217,15 +217,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "8363895bb0b69c39",
+  "active": "8eb5ae2a73ba1e0c",
   "lastOpenFiles": [
     "Game Design Document.md",
-    "Sprint Logs/Sprint 4.md",
+    "AI Notice.md",
     "Sprint Logs/Sprint 5.md",
+    "Sprint Logs/Sprint 4.md",
     "Sprint Logs/Sprint 3.md",
     "Sprint Logs/Sprint 2.md",
     "Sprint Logs/Sprint 1.md",
-    "AI Notice.md",
     "Game Design Document Template.md",
     "Sprint Logs/Untitled.md",
     "GDD Unorganised notes.md",

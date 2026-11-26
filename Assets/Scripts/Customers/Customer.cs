@@ -160,4 +160,18 @@ public class Customer : MonoBehaviour
         State = CustomerState.Leaving;
         agent.SetDestination(spawner.exitPoint.position);
     }
+
+    public void Dismiss()
+    {
+        queue.Remove(this);
+        if (targetSlot != null) targetSlot.CancelReservation();   // slot isn't locked
+
+        if (Carrying != null)
+        {
+            Carrying.transform.SetParent(null);
+            Carrying.SetHeld(false);
+            Carrying = null;
+        }
+        Destroy(gameObject);
+    }
 }

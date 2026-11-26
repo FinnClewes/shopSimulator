@@ -7,7 +7,6 @@ public class CustomerSpawner : MonoBehaviour
     [SerializeField] Transform spawnPoint;
     public Transform exitPoint;
 
-    [SerializeField] float dayLength = 180f;
     [SerializeField] float spawnWindow = 0.8f;   // spawn within first 80% of the day
 
     [SerializeField] TillQueue tillQueue;
@@ -30,7 +29,7 @@ public class CustomerSpawner : MonoBehaviour
     public static int GetCustomerCount(int week, int tierBase = 5)
         => Mathf.Min(tierBase + (week - 1), 14);
 
-    public void StartDay(int count)
+    public void StartDay(int count, float dayLength)
     {
         spawnTimes.Clear();
         customersRemaining = count;
@@ -76,4 +75,17 @@ public class CustomerSpawner : MonoBehaviour
     }
 
     public bool IsDayComplete => customersRemaining == 0 && activeCustomers == 0;
+
+    public void StopDay()
+    {
+        running = false;
+        spawnTimes.Clear();
+        customersRemaining = 0;
+
+        foreach (var c in FindObjectsByType<Customer>(FindObjectsSortMode.None))
+            c.Dismiss();
+
+        activeCustomers = 0;
+        OnCountChanged?.Invoke();
+    }
 }

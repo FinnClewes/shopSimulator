@@ -49,4 +49,6 @@ public class ShelfSlot : MonoBehaviour, IInteractable
             stored = null;
         }
     }
+
+    public void CancelReservation() => reserved = false;
 }
